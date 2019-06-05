@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 #include <math.h>
 #include <time.h>
 
@@ -14,8 +14,6 @@ int randNum()
 
 	for (x=0; x < n ; x++){
 		x = rand() %64;
-		//printf("%d\n", rand() %64);
-		//printf("%d\n", x);
  	}
 	return x;
 }
@@ -28,8 +26,6 @@ int main()
 	char response[256];
 
 	int i = randNum();
-	int i = i - 1;
-	printf("%d\n", i);
 
 		printf("What is the binary equivalent to the decimal number %d? (always use 8 digits)", Decimals[i]);
 		printf("\n");
